@@ -13,9 +13,13 @@ const styles = StyleSheet.create({
 	},
 	text: {
 		color: 'grey',
-		marginTop: 10,
 		fontSize: 18
 	},
+	title: {
+		color: 'white',
+		marginTop: 10,
+		fontSize: 20,
+	}
 })
 
 export default styles

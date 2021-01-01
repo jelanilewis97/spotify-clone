@@ -15,11 +15,14 @@ const styles = StyleSheet.create({
 	},
 	container: {
 		flexDirection: 'row',
-		margin: 10
+		margin: 10,
+		position: 'absolute',
+		backgroundColor: 'black',
+		width: '100%'
 	},
 	rightContainer: {
 		justifyContent: 'space-around',
-		marginLeft: 10
+		marginLeft: 10,
 	}
 })
 

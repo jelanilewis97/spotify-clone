@@ -1,8 +1,10 @@
-
+import SongListData from './SongListData'
 
 export default [{
       id: '1',
       title: 'Fuck The World',
+      songList: SongListData[0],
+      year: 2020,
       imageURI: 'https://images.genius.com/65fa2295b92218e5c10cbed945537758.1000x1000x1.jpg',
       artistsHeadline: 'Brent Faiyaz',
     },{
@@ -28,12 +30,12 @@ export default [{
       artistsHeadline: '21 Savage, Metro Boomin',
     },{
       id: '6',
-      title: 'Shoot For The Stars, Aim For The Moon',
+      title: 'Shoot For The Stars Aim For The Moon',
       imageURI: 'https://media.pitchfork.com/photos/5f02968d8813ffa92664f131/1:1/w_600/Shoot%20for%20the%20Stars%20Aim%20for%20the%20Moon_Pop%20Smoke.jpg',
       artistsHeadline: 'Pop Smoke',
     },{
       id: '7',
-      title: 'Cozy Tapes Vol 1: Too Cozy',
+      title: 'Cozy Tapes Vol 1: Friends',
       imageURI: 'https://upload.wikimedia.org/wikipedia/en/7/7c/Cozyboysvol1.jpg',
       artistsHeadline: 'A$AP Mob',
     },{

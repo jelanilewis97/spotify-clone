@@ -21,4 +21,16 @@ export type AlbumType = {
 	id: string;
     imageURI: string;
     artistsHeadline: string;
+    title: string;
+    songList: Song[];
+    year: string;
+}
+
+export type Song = {
+	id: string;
+	imageURI: string;
+	title: string;
+	artist: string;
+	album: string;
+
 }
